@@ -40,6 +40,16 @@ These parts are mentioned in the directions, but were not on the parts list:
 - [USB Afro ESC flashing tool](https://abra-electronics.com/sensors/sensor-cables/805-28995-sharp-ir-sensor-to-servo-cable-805-28995.html) (to flash the firmware on the ESCs)
 - [Raspberry Pi heat sinks](https://www.amazon.com/Raspberry-Heatsink-Lanpu-Performance-conductive/dp/B07D15MDXH/ref=sr_1_2_sspa?s=industrial&ie=UTF8&qid=1545785782&sr=1-2-spons&keywords=raspberry+pi+heatsink&psc=1)
 - [Turnigy LiPo charger](https://www.amazon.com/Multi-function-Battery-Digital-Balance-Charger/dp/B07H2YFX6V/ref=sr_1_6?s=industrial&ie=UTF8&qid=1545785888&sr=1-6&keywords=lipo+charger) (to charge the batteries)
+- Zipties
+- Stand-off kit
+
+### Supplementary Directions
+
+- When flashing the CleanFlight to the SkyLine controller, the permissions on the usb connection must be changed in Ubuntu.
+  - Connect the USB
+  - Start Cleanflight Configurator
+  - on the command line: `sudo chmod 0777 /dev/ttyUSB0`
+  - Press connect or go to the flashing directions
 
 ## CrazyFlie
 
